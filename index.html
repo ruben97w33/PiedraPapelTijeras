@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="./images/logo.svg" class="logo" />
+      <div class="container-score">
+        <p class="score-text">SCORE</p>
+        <h2 id="score"></h2>
+      </div>
+    </div>
+
+    <div class="container-game">
+      <img src="./images/bg-triangle.svg" id="triangle" />
+      <div class="container-scissors" id="scissors">
+        <div class="scissors"></div>
+      </div>
+      <div class="container-papper" id="papper">
+        <div class="papper"></div>
+      </div>
+      <div class="container-rock" id="rock">
+        <div class="rock"></div>
+      </div>
+    </div>
+
+    <div class="container-play" hidden="true">
+      <div class="container-1"></div>
+      <div class="menu hidden">
+        <p id="ganador"></p>
+        <button id="try-again" class="hidden">Play Again</button>
+      </div>
+      <div class="container-2 container-compu hidden"></div>
+    </div>
+    <p class="rules">Rules</p>
+
+    <div class="modal hidden">
+      <button class="cancel">X</button>
+      <img src="./images/image-rules.svg" alt="" srcset="" />
+    </div>
+    <script src="./codigo/script.js"></script>
+  </body>
+</html>
